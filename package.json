@@ -1,0 +1,28 @@
+{
+  "name": "webs",
+  "version": "1.0.0",
+  "description": "Webscraping using cheerio, node and will add nightmare",
+  "main": "scrap.js",
+  "scripts": {
+    "start": "node scrap2.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/manulangat1/nodejs_webscraping_cheerio_pupeeter_real.git"
+  },
+  "keywords": [
+    "Webscraping",
+    "node",
+    "cheerio"
+  ],
+  "author": "Emmanuel Kipchirchir Langat",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/manulangat1/nodejs_webscraping_cheerio_pupeeter_real/issues"
+  },
+  "homepage": "https://github.com/manulangat1/nodejs_webscraping_cheerio_pupeeter_real#readme",
+  "dependencies": {
+    "cheerio": "^1.0.0-rc.3",
+    "request": "^2.88.2"
+  }
+}
