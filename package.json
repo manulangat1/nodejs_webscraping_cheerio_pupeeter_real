@@ -4,7 +4,7 @@
   "description": "Webscraping using cheerio, node and will add nightmare",
   "main": "scrap.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "start": "node scrap2.js"
   },
   "repository": {
     "type": "git",
@@ -20,5 +20,9 @@
   "bugs": {
     "url": "https://github.com/manulangat1/nodejs_webscraping_cheerio_pupeeter_real/issues"
   },
-  "homepage": "https://github.com/manulangat1/nodejs_webscraping_cheerio_pupeeter_real#readme"
+  "homepage": "https://github.com/manulangat1/nodejs_webscraping_cheerio_pupeeter_real#readme",
+  "dependencies": {
+    "cheerio": "^1.0.0-rc.3",
+    "request": "^2.88.2"
+  }
 }
